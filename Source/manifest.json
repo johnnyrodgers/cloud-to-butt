@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Trump to VoidBeast",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"description": "Replaces variations of 'Donald Trump' with 'VoidBeast'. All credit to cloud-to-butt, millenials-to-snake-people, and the great @ChuckTingle.",
 	"content_scripts": 
 	[
 		{
