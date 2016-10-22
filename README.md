@@ -1,7 +1,7 @@
 trump-to-voidbeast
 =============
 
-Chrome extension that replaces variations of 'Donal Trump' with 'VoidBeast'
+Chrome extension that replaces variations of 'Donald Trump' with 'VoidBeast'
 
 Installation
 ------------
