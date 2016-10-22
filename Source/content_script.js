@@ -36,11 +36,26 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bThe Cloud\b/g, "My Butt");
-	v = v.replace(/\bThe cloud\b/g, "My butt");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
-	
+	v = v.replace(/Donald J. Trump/gi, "The VoidBeast")
+		.replace(/Donald John Trump/gi, "The VoidBeast")
+		.replace(/Donald J Trump/gi, "The VoidBeast")
+		.replace(/donaldjtrump/gi, "voidbeast")
+		.replace(/donaldjtrump.com/gi, "voidbeast.com")
+		.replace(/trump.com/gi, "voidbeast.com")
+		.replace(/realDonaldTrump/gi, "realVoidBeast")
+		.replace(/Mr. Trump/gi, "The VoidBeast")
+		.replace(/The Donald/gi, "The VoidBeast")
+		.replace(/Donald Trump/gi, "VoidBeast")
+		.replace(/donald trump/gi, "voidbeast")
+		.replace(/DonaldTrump/gi, "VoidBeast")
+		.replace(/Donald_Trump/gi, "VoidBeast")
+		.replace(/Team Trump/g, "Team VoidBeast")
+		.replace(/Mike Pence/g, "NetherBeast")
+		.replace(/Pence/g, "NetherBeast")
+		.replace(/TRUMP/g, "VoidBeast")
+		.replace(/#MAGA/g, "#VOID")
+		.replace(/Trump/g, "VoidBeast");
+
 	textNode.nodeValue = v;
 }
 
