@@ -35,25 +35,25 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/Donald J. Trump/gi, "The VoidBeast")
-		.replace(/Donald John Trump/gi, "The VoidBeast")
-		.replace(/Donald J Trump/gi, "The VoidBeast")
-		.replace(/donaldjtrump/gi, "voidbeast")
-		.replace(/donaldjtrump.com/gi, "voidbeast.com")
-		.replace(/trump.com/gi, "voidbeast.com")
-		.replace(/realDonaldTrump/gi, "realVoidBeast")
-		.replace(/Mr. Trump/gi, "The VoidBeast")
-		.replace(/The Donald/gi, "The VoidBeast")
-		.replace(/Donald Trump/gi, "VoidBeast")
-		.replace(/donald trump/gi, "voidbeast")
-		.replace(/DonaldTrump/gi, "VoidBeast")
-		.replace(/Donald_Trump/gi, "VoidBeast")
-		.replace(/Team Trump/g, "Team VoidBeast")
-		.replace(/Mike Pence/g, "NetherBeast")
-		.replace(/Pence/g, "NetherBeast")
-		.replace(/TRUMP/g, "VoidBeast")
-		.replace(/#MAGA/g, "#VOID")
-		.replace(/Trump/g, "VoidBeast");
+	v = v.replace(/Donald J. Trump/gi, "The VoidBeast");
+	v = v.replace(/Donald John Trump/gi, "The VoidBeast");
+	v = v.replace(/Donald J Trump/gi, "The VoidBeast");
+	v = v.replace(/donaldjtrump/gi, "voidbeast");
+	v = v.replace(/donaldjtrump.com/gi, "voidbeast.com");
+	v = v.replace(/trump.com/gi, "voidbeast.com");
+	v = v.replace(/realDonaldTrump/gi, "realVoidBeast");
+	v = v.replace(/Mr. Trump/gi, "The VoidBeast");
+	v = v.replace(/The Donald/gi, "The VoidBeast");
+	v = v.replace(/Donald Trump/gi, "VoidBeast");
+	v = v.replace(/donald trump/gi, "voidbeast");
+	v = v.replace(/DonaldTrump/gi, "VoidBeast");
+	v = v.replace(/Donald_Trump/gi, "VoidBeast");
+	v = v.replace(/Team Trump/g, "Team VoidBeast");
+	v = v.replace(/Mike Pence/g, "NetherBeast");
+	v = v.replace(/Pence/g, "NetherBeast");
+	v = v.replace(/TRUMP/g, "VoidBeast");
+	v = v.replace(/#MAGA/g, "#VOID");
+	v = v.replace(/Trump/g, "VoidBeast");
 
 	textNode.nodeValue = v;
 }
