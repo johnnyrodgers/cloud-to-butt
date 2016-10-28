@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Trump to VoidBeast",
 	"version": "1.0",
-	"description": "Replaces variations of 'Donald Trump' with 'VoidBeast'. All credit to cloud-to-butt, millenials-to-snake-people, and the great @ChuckTingle.",
+	"description": "Replaces variations of 'Donald Trump' with 'VoidBeast'. All credit to cloud-to-butt, millenials-to-snake-people, and @ChuckTingle.",
 	"content_scripts": 
 	[
 		{
